@@ -17,3 +17,7 @@ const anythingToLowerCase = anything => {
   return anything.toLowerCase();
 };
 console.log(anythingToLowerCase());
+
+// Шаблонные строки 
+const Pi = `Число Pi равно ${Math.PI}`;
+console.log(Pi);
